@@ -16,7 +16,7 @@ This project involves building a **Housing Price Prediction Model** using **Line
 - **Age of the House**
 
 The model is trained using **Gradient Descent** and optimized based on **Mean Squared Error (MSE)** as the cost function.  
-This project is inspired by **Andrew Ng's "Supervised Learning: Regression and Classification" course** on **Coursera**, which provides in-depth explanations of linear regression, cost functions, and gradient descent optimization.
+This project is inspired by **Andrew Ng's "Supervised Learning: Regression and Classification" course** on **Coursera**.
 
 ---
 
@@ -45,39 +45,6 @@ This project is inspired by **Andrew Ng's "Supervised Learning: Regression and C
 - **NumPy**: For matrix operations, weight updates, and cost calculation.  
 - **Pandas**: For dataset management and visualization.  
 - **Matplotlib**: For data visualization (cost reduction and prediction accuracy).  
-
----
-
-## 💡 **Model Architecture**
-
-1. **Data Preparation:**
-    - Synthetic dataset generated with NumPy.
-    - Features: `SqFt`, `Bedrooms`, `Distance`, `Age`.
-    - Target variable: `Price`.
-
-2. **Model Implementation:**
-    - **Gradient Descent Optimization**
-    - **Cost Function:**  
-    \[
-    MSE = \frac{1}{m} \sum_{i=1}^{m} (y_i - \hat{y_i})^2
-    \]
-
-3. **Evaluation:**
-    - Visualize the model's performance with scatter plots.
-    - Mean Squared Error is displayed after training.
-
----
-
-## 📚 **Learning Outcomes**
-
-1. **Linear Regression from Scratch:**  
-   - Implemented without using Scikit-Learn or TensorFlow, providing a deeper understanding of how linear regression works at the fundamental level.
-
-2. **Gradient Descent:**  
-   - Practiced manually implementing gradient descent, an essential optimization algorithm in machine learning.
-
-3. **Model Visualization:**  
-   - Visualized cost reduction over time and the relationship between actual and predicted prices.
 
 ---
 
